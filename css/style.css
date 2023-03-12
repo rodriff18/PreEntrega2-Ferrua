@@ -51,8 +51,7 @@ header div{
     width: 100%;
     height: 80px;
     border-top-left-radius: 75%;
-   
-    
+
 }
 .navbar ul li a{
     text-decoration: none;
@@ -129,9 +128,8 @@ header div img{
 
 .banner{
     background-image: url(../assets/banner-main.jpg);
-    height: 500px;
+    height: 400px;
     margin: 5px;
-    
 }
 .banner h1{
     padding-left: 80px;
@@ -154,10 +152,9 @@ header div img{
     padding-left: 50px;
     font-family: cursive;
     color: rgb(243, 243, 243);
-}
-.banner p:hover{
     background-color: rgba(0, 0, 0, 0.336);
 }
+
 
 main{
     background-color: rgba(248, 248, 223, 0.856);
@@ -319,13 +316,10 @@ main{
     display: flex;
     padding: 25px;
     margin-top: 70px;
-  
-    
 
 }
 
 .habitos{
-   
     width: 30%;
     
 }
@@ -405,6 +399,7 @@ transition: 0.5s;
     margin: 70px;
     display: flex;
     border: 5px solid rgba(34, 37, 13, 0.76);
+    text-align: center;
 }
 
 .biografia div h2{
@@ -424,8 +419,8 @@ transition: 0.5s;
 }
 
 .biografia div img{
-    padding-top: 60px;
-    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 /* conocenos */
@@ -435,8 +430,8 @@ transition: 0.5s;
     }
     
     .carousel-item img{
-        height: 400px;
-        width: 50%;
+        height: auto;
+        width: 100%;
     
     }
     
@@ -449,9 +444,8 @@ transition: 0.5s;
     }
     
     .carousel-caption p{
-       
         transition: 0.8s;
-      padding-bottom: 200px;
+        padding-bottom: 200px;
         color: rgb(2, 2, 2);
     
     }
@@ -579,7 +573,7 @@ padding: 20px;
 }
 .card:hover{
     box-shadow: 0px 10px 10px 10px rgb(224, 243, 202);
-    transform: scale(1.1);
+    transform: scale(1);
 }
 .card img{
     height: 200px;
@@ -622,7 +616,6 @@ padding: 20px;
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
-   
 }
 
 
@@ -654,10 +647,13 @@ margin-top: 70px;
 .contenedor-boton{
     background-color: rgba(186, 219, 233, 0.671);
     margin-top: 50px;
+    margin-bottom: 100px;
     margin-left: 250px;
     margin-right: 250px;
     display: flex;
-    height: 80px;
+    justify-content: center;
+    width: auto;
+    height: 60px;
     border-radius: 10px;
     
     
@@ -666,25 +662,26 @@ margin-top: 70px;
 .contenedor-boton p{
     
     padding-top: 10px;
-    padding-left: 45px;
+    padding-left: 5px;
     font-size: 20px;
 }
 .contenedor-boton h4{
     color: rgb(174, 179, 177);
     text-align: center;
-    padding-top: 15px;
-    padding-left: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
     font-size: 20px;
     text-decoration: underline;
 }
 
 .boton-informate{
     padding-left: 50px;
-    padding-top: 2px;
+    padding-top: 10px;
 }
 .boton-informate button{
     font-size: 20px;
     color:rgb(5, 5, 5);
+    width: 100px;
 }
 
 .lista-planes{
@@ -808,8 +805,6 @@ border-bottom-right-radius: 15%;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 15px;
-    
-    
 }
 
 
@@ -838,7 +833,14 @@ border-bottom-right-radius: 15%;
     justify-content: end;
     width: 100%;
     padding-top: 10px;
-}  
+    margin-left: 30px;
+    padding-bottom: 6px;
+}
+
+.d-flex{
+    width: 300px;
+}
+
 
 .recetas-titulo h3{
     padding-left: 300px;
@@ -847,7 +849,6 @@ border-bottom-right-radius: 15%;
     color: rgba(10, 10, 10, 0.651);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-
 }
 
 .carrusel-receta{
@@ -859,7 +860,6 @@ border-bottom-right-radius: 15%;
     justify-content: space-between;
     padding-left: 80px;
     padding-right: 80px;
-    
 }
 
 .destacados-dos{
@@ -934,7 +934,6 @@ textarea{
     margin: 100px;
     border: 2px solid black;
     border-style:double;
-   
 }
 .formulario h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -954,7 +953,6 @@ textarea{
     padding-left: 120px;
     padding-top: 80px; 
     font-size: 20px;
-    
 }
 
 /* celiacos*/
@@ -964,14 +962,12 @@ textarea{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(3,320px);
     margin: 50px;
-    
 }
 
 .celiacos-{
     grid-column: 1/3;
     grid-row: 1/2;
     border: 1px solid black;
-
 }
 
 .celiacos- h3{
@@ -1071,7 +1067,6 @@ textarea{
     padding: 20px;
     border: 2px double rgb(162, 202, 124);
     border-radius: 10%;
-    
 }
 
 .objetivo-celiacos{
@@ -1102,6 +1097,7 @@ textarea{
     grid-row: 2/3;  
     text-align: center;
 }
+
 /* Footer */
 
 footer{
@@ -1162,7 +1158,6 @@ footer{
     padding-bottom: 10px;
     width: 30px;
     height: 30px;
-   
 }
 
 .contenedor-footer div a{
@@ -1212,7 +1207,879 @@ footer div a img:hover{
     transform: scale(1.4);
 }
 
+/* 1024 mediaquery */
 
+@media (max-width: 1024px){
+
+    /*index*/
+    /* header*/
+
+    section .card{
+        width: auto;
+    }
+    header{
+        background-color: rgb(119, 207, 179);
+        
+    }
+    
+    header div{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        
+        
+    }
+    
+    .navbar ul{
+        display: flex;
+        background-color: rgba(36, 39, 41, 0.548);
+        gap: 50px;
+        justify-content: center;
+        padding: 25px;
+        list-style: none;
+        width: 100%;
+        height: 80px;
+        border-top-left-radius: 75%;
+        
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(250, 252, 255);
+        justify-content: center;
+        
+    }
+    
+    .navbar ul li a:hover{
+        text-decoration: underline;
+        text-decoration-color: cadetblue;
+        background-color: rgba(194, 245, 112, 0.61);
+        border-radius: 25%;
+        
+    }
+    
+    
+    .titulo{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color: rgba(71, 69, 61, 0.548);
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+        }
+    
+    .titulo:hover{
+        background-color: rgb(116, 212, 241);
+            
+        box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(116, 212, 241), 0 0 80px rgb(116, 212, 241);;
+        font-size: 60px;
+        }
+    
+    .subtitulo{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        color: rgb(109, 106, 102);
+        margin-left: 100px;
+        padding-top: 10px;
+        font-style: oblique;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    
+    header div img{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .redes{
+        text-decoration: none;
+        list-style: none;
+        gap: 40px;
+        justify-content: end;
+    }
+    
+    .redes li a img{
+        height: 40px;
+        width: 40px;
+        padding-top: 5px;
+        
+    }
+    
+    .redes li a img:hover{
+        transform: scale(1.6);
+    }
+
+    /*main*/
+
+    .banner{
+        height:500px
+    }
+    .banner h1{
+        padding-left: 80px;
+        padding-top: 73px;
+        font-size: 50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(25, 25, 26);
+        font-style: oblique;
+    }
+    
+    .banner p{
+        width: 100%;
+        padding: 50px;
+        font-size: 20px;
+        font-family: cursive;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.336);
+    }
+    
+    .servicios{
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        margin-top: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .servicios h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgba(7, 7, 65, 0.575);
+        transition: 0.5s;
+    }
+    
+    
+    .main-secundario{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: auto;
+        gap: 20px;
+        
+        
+    }
+    
+    .planes{
+        background-image: url(../assets/planes-uno.jpg);
+        grid-column: 1/2;
+        grid-row: 1/6;
+        margin: 10px;
+        border-radius: 5%;
+        }
+    
+        .planes:hover{
+            box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
+        }
+    
+        .planes h1{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            
+        }
+    
+        .planes p{
+            display: flex;
+            justify-content: center;
+            font-family: cursive;
+            color: rgb(14, 13, 13);
+            padding: 50px;
+            font-size: 18px;
+            background-color: rgba(240, 255, 255, 0.247);
+        }
+    
+    .comida{
+        background-image: url(../assets/comida-saludable.jpg);
+        grid-column: 2/3;
+        grid-row: 1/6;
+        margin: 10px;
+        border-radius: 5%;
+    }
+    
+    .comida:hover{
+        box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
+    }
+    
+    .comida h1{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(44, 6, 42, 0.719);
+        
+    }
+    
+    .comida p{
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+        color: rgb(14, 13, 13);
+        padding: 50px;
+        font-size: 18px;
+        background-color: rgba(240, 255, 255, 0.247);
+    }
+    
+    
+    .entrenamiento{
+        background-image: url(../assets/fit.jpg);
+        grid-column: 3/4;
+        grid-row: 1/6;
+        margin: 10px;
+        border-radius: 5%;
+    }
+    
+    .entrenamiento:hover{
+        box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
+    }
+    
+    .entrenamiento h1{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    .entrenamiento p{
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+        color: rgb(14, 13, 13);
+        padding: 20px;
+        font-size: 18px;
+        background-color: rgba(240, 255, 255, 0.247);
+    }
+    
+    .planes:hover{
+        transform: scale(1.1);
+    }
+    .comida:hover{
+        transform: scale(1.1);
+    }
+    .entrenamiento:hover{
+        transform: scale(1.1);
+    }
+
+    .main-tercero{
+        margin-top: 100px;
+    }
+    
+    .habitos{
+        width: 50%;
+        
+    }
+    
+    .imagen-habitos{
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+    .imagen-habitos img{
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    border-style: double;
+    transition: 0.5s;
+    
+    
+    }
+    
+    .imagen-habitos img:hover{
+        transform: unset;
+    
+    }
+    
+    .habitos h1{
+        font-size: 35px;
+        padding-left: 50px;
+        font-style: oblique;
+        color: darkolivegreen;
+        
+    }
+    
+    .habitos p{
+        font-family: cursive;
+        font-size: 15px;
+        padding: 20px;
+        background-color: rgba(240, 248, 255, 0.274);
+    }
+    
+    .habitos h3{
+        color: darkolivegreen; 
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-left: 50px;
+    }
+
+    /* footer */
+    footer{
+        height: 400px;
+    }
+    
+    .contenedor-footer div{
+    padding-left: 10px;
+    }
+
+    /* conocenos */
+        /*main */
+
+        .carousel-caption p{
+            font-size: 24px;
+        
+        }
+
+        .politica{
+            display: flex;
+            justify-content: space-around;
+            margin: 35px;
+            border: 2px solid rgb(12, 12, 12);
+            padding: 35px;
+            border-bottom-left-radius: 10%;
+            
+        }
+        
+        .politica div{
+            border: 2px solid rgb(65, 63, 63);
+            border-bottom-left-radius: 10%;
+        }
+
+        /* planes */
+        
+        .banersillo h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(5, 5, 5);
+            text-align: center;
+            padding-top: 80px;
+            font-size: 26px;
+            
+            
+        }
+        
+        .banersillo p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(16, 17, 17);
+            text-align: center;
+            font-size: 20px;
+            padding-top: 40px;
+        }
+        
+        
+        .boton{
+        display: flex;
+        justify-content: end;
+        margin-right: 60px;
+        margin-top: 70px;
+        } 
+        
+        .banersillo button{
+            font-size: 20px;
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+        }
+        
+        .boton-informate button{
+            width: 300px;
+        }
+        
+
+        .titulo-plann h2{
+            margin-top: 80px;
+            padding: 30px;
+            font-size: 30px;
+        }
+        .parrafo-plann p{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .contenedor-boton{
+            margin-left: 130px;
+            margin-right: 130px;
+            
+     
+        }
+        
+        .contenedor-boton p{
+            
+            padding-left: 5px;
+            font-size: 16px;
+        }
+        .contenedor-boton h4{
+            text-align: center;
+            font-size: 16px; 
+        }
+        
+        .opciones-planes{
+            height: auto;
+        }
+
+        .boton-planes button{
+            margin-bottom: 20px;
+        }
+
+        .beneficios h5{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+            font-size: 22px;
+        }
+        
+        .beneficios ul{
+            font-style: oblique;
+            padding-right: 20px;
+        
+        }
+
+        /* recetas */
+
+        .recetas-titulo h3{
+            display: flex;
+            width: 100%;
+            padding-left: 100px;
+        } 
+        
+        .contenedor-cards{
+            display: flex;
+            justify-content: space-between;
+            gap: 1px;
+            padding-left: unset;
+            padding-right: 10px;
+            
+        }
+
+        section{
+            width: 30px;
+        }
+        
+        .destacados-dos{
+            font-size: 28px;
+            font-style: oblique;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-shadow: 5px 5px 10px 10px black;
+            margin-right: 10px;
+            padding-left: 10px;
+            margin-top: 100px;
+        }
+        
+        .contenedor-desayunos{
+            margin: 150px;
+        }
+        
+        form{
+            width:300px;
+            padding:16px;
+            border-radius:10px;
+            margin:auto;
+            background-color:#e6898963;
+        }
+        
+        form label{
+            width:72px;
+            font-weight:bold;
+            display:inline-block;
+        }
+        
+        form input[type="text"],
+        form input[type="email"]{
+            width:180px;
+            padding:3px 10px;
+            border:1px solid #f6f6f6;
+            border-radius:3px;
+            background-color:#f6f6f6;
+            margin:8px 0;
+            display:inline-block;
+        }
+        
+        form input[type="submit"]{
+            width:100%;
+            padding:8px 16px;
+            margin-top:32px;
+            border:1px solid #000;
+            border-radius:5px;
+            display:block;
+            color:#fff;
+            background-color:#000;
+        } 
+        
+        form input[type="submit"]:hover{
+            cursor:pointer;
+        }
+        
+        textarea{
+            width:100%;
+            height:100px;
+            border:1px solid #f6f6f6;
+            border-radius:3px;
+            background-color:#f6f6f6;			
+            margin:8px 0;
+            resize:none;
+            display:block;
+        }
+        
+        
+        .formulario{
+            display: flex;
+            justify-content: space-around;
+            margin: 100px;
+            border: 2px solid black;
+            border-style:double;
+        }
+        .formulario h3{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            color: rgba(55, 77, 119, 0.788);
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-right: 20px;
+        }
+        
+        .formulario h5{
+            padding-left: 40px;
+            padding-top: 30px; 
+            font-size: 26px;
+            padding-right: 20px;
+        }
+        
+        .formulario h6{
+            padding-left: 40px;
+            padding-top: 30px; 
+            font-size: 20px;
+            padding-right: 20px;
+        }
+
+        /* celiacos */
+        
+        .titulo-enfermedad h2{
+            font-size: 34px;
+        }
+
+        .celiacos- h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        .celiacos- p{
+            font-size: 16px;
+        }
+
+        .celiacos-grids{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: 400px 700px 400px;
+            margin: 50px;
+        }
+        
+        .celiacos-{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            border: 1px solid black;
+        }
+
+        .foto-celiacos img{
+            height: 1000px;
+            width: 500px;
+            
+        }
+
+        .foto-celiacos{
+            grid-column: 3/6;
+            grid-row: 1/4;
+            padding-left: 10px;
+            padding-top: 100px;
+        }
+        
+        
+        .sintomas{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            border: 1px solid black;
+        }
+        .sintomas h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        .sintomas p{
+            font-size: 16px;
+            padding: 20px;
+        }
+        .tratamiento{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            border: 1px solid black;
+        }
+        
+        .tratamiento h3{
+            font-size: 20px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        .tratamiento p{
+            font-size: 16px;
+            padding: 20px;
+        }
+        
+        .alimentacion{
+            grid-column: 1/3;
+            grid-row: 3/4;
+            border: 1px solid black;
+        }
+        
+        .alimentacion h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        .alimentacion p{
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        .celiacos-dieta{
+            background-color: #b8b2b269;
+            padding-bottom: 30px;
+        }
+        
+        .contenedor-plan-celiacos{
+            display: grid;
+            grid-template-columns: repeat(2,400px);
+            grid-template-rows: repeat(2,600px);
+            margin-left: 80px;
+            margin-right: 80px;
+            background-color: rgb(246, 250, 250);
+            padding: 20px;
+            border: 2px double rgb(162, 202, 124);
+            border-radius: unset;
+        }
+        
+        .objetivo-celiacos{
+            grid-template-columns: 1/2;
+            grid-row: 1/2;
+            text-align: center;
+            font-style: oblique;
+            padding: 40px;
+        }
+        
+        
+        .info-celiacos{
+            grid-template-columns: 1/2;
+            grid-row: 2/3; 
+            text-align: center;
+            font-style: oblique;
+            padding: 60px;
+        }
+        
+        .plan-card-uno{
+            grid-template-columns: 2/3;
+            grid-row: 1/2; 
+            text-align: center;
+        }
+        
+        .plan-card-dos{
+            grid-template-columns: 2/3;
+            grid-row: 2/3;  
+            text-align: center;
+        }
+
+}
+
+@media (max-width: 900px){
+
+    .main-secundario{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,250px);
+        height: 770px;
+        gap: 10px;
+        
+        
+    }
+    
+    .planes{
+        background-image: url(../assets/planes-uno.jpg);
+        grid-column: 1/4;
+        grid-row: 1/2;
+        margin: 10px;
+        border-radius: 0%;
+        }
+
+    .comida{
+        background-image: url(../assets/comida-saludable.jpg);
+        grid-column: 1/4;
+        grid-row: 2/3;
+        margin: 10px;
+        border-radius: 0%;
+    }
+
+    .entrenamiento{
+        background-image: url(../assets/fit.jpg);
+        grid-column: 1/4;
+        grid-row: 3/4;
+        margin: 10px;
+        border-radius: 0%;
+    }
+
+    .planes h1{
+        padding-bottom: 5px;
+        margin-bottom: 5px;  
+    }
+
+    .planes p{
+        padding-top: 5px;
+        margin-top: 5px;  
+    }
+
+    .comida h1{
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    .comida p{
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    
+
+    .entrenamiento h1{
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+    }
+
+    .contenedor-boton h4{
+        color: transparent;
+        width: 1px;
+    }
+
+    /* celiacos */
+    .celiacos- h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .celiacos- p{
+        font-size: 16px;
+    }
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 300px 400px 400px 400px 400px;
+        margin: 50px;
+    }
+    
+    .celiacos-{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        border: 1px solid black;
+    }
+
+    .foto-celiacos img{
+        height: 800px;
+        width: 500px;
+        border: 1px solid black;
+        
+    }
+
+    .foto-celiacos{
+        grid-column: 2/5;
+        grid-row: 2/4;
+        padding-left: 10px;
+        padding-top: unset;
+        
+    }
+    
+    
+    .sintomas{
+        grid-column: 1/3;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    .sintomas h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .sintomas p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .tratamiento{
+        grid-column: 4/6;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    
+    .tratamiento h3{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 32px;
+    }
+    .tratamiento p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .alimentacion{
+        grid-column: 2/5;
+        grid-row: 5/6;
+        border: 1px solid black;
+    }
+    
+    .alimentacion h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .alimentacion p{
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .contenedor-plan-celiacos{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        grid-template-rows: repeat(2,700px);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: unset;
+    }
+    
+    .objetivo-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        font-style: oblique;
+        padding: 40px;
+    }
+    
+    
+    .info-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 2/3; 
+        text-align: center;
+        font-style: oblique;
+        padding: 60px;
+    }
+    
+    .plan-card-uno{
+        grid-template-columns: 2/3;
+        grid-row: 1/2; 
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .plan-card-dos{
+        grid-template-columns: 2/3;
+        grid-row: 2/3;  
+        text-align: center;
+        padding-top: 70px;
+    }
+
+
+}
 
 
 /* tablet */
@@ -1328,6 +2195,8 @@ footer div a img:hover{
     /* index */
     /* main */
 
+    
+
     .banner h1{
         padding-left: 5px;
         padding-top: 10px;
@@ -1352,16 +2221,17 @@ footer div a img:hover{
     .banner p{
         width: 100%;
         margin-top: 50px;
-        padding-left: 10px;
+        padding: 10px;
         font-family: cursive;
         color: rgb(243, 243, 243);
         font-size: 14px;
         background-color: rgba(0, 0, 0, 0.336);
+        margin-top: 60px;
     }
     
     .banner{
         background-image: url(../assets/banner-main.jpg);
-        height: 350px;
+        height: 320px;
         margin: 5px;
         
     }
@@ -1636,6 +2506,7 @@ footer div a img:hover{
     margin: 80px;
     display: block;
     border: 5px solid rgba(34, 37, 13, 0.76);
+    text-align: center;
 }
 
 .biografia div h2{
@@ -1656,10 +2527,10 @@ footer div a img:hover{
 }
 
 .biografia div img{
-    padding-left: 150px;
-    padding-bottom: 50px;
-    height: 400px;
-    width: 440px;
+    
+    
+    height: 300px;
+    width: 300px;
     
     
 }
@@ -1795,9 +2666,8 @@ footer div a img:hover{
     }
     
     .carousel-caption p{
-       
         transition: 0.8s;
-      padding-bottom: 100px;
+        padding-bottom: 100px;
         color: rgb(2, 2, 2);
     
     }
@@ -1904,8 +2774,8 @@ footer div a img:hover{
     
         .testimonios{
     display: flex;
-    
-    margin: 50px;
+    justify-content: center;
+    margin: unset;
 }
 
 .titulo-testimonios{
@@ -1916,7 +2786,1370 @@ footer div a img:hover{
     font-size: 30px;
 }
 
+    /* planes main */
 
+    .banersillo{
+        height: 400px;
+        margin-top: 5px;
+    }
+    
+    .banersillo h2{
+        font-size: 22px;
+        
+        
+    }
+    
+    .banersillo p{
+        font-size: 16px;
+    }
+    
+    
+    .boton{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 70px;
+    } 
+    
+    .banersillo button{
+        font-size: 16px;
+    }
+    
+    .titulo-plann h2{
+        font-size: 30px;
+    }
+
+    .contenedor-boton{
+        margin-left: 10px;
+        margin-right: 50px;
+        display: flex;
+        height: auto;
+    }
+    
+    .contenedor-boton p{
+        padding-top: 10px;
+        padding-left: 45px;
+        font-size: 14px;
+    }
+    .contenedor-boton h4{
+        padding-top: 15px;
+        padding-left: 0px;
+        font-size: 14px;
+     
+    }
+    
+    .boton-informate{
+        padding-left: 50px;
+        padding-top: 2px;
+    }
+    .boton-informate button{
+        font-size: 20px;
+        color:rgb(5, 5, 5);
+
+    }
+    
+    .lista-planes{
+        background-color: rgba(114, 216, 216, 0.63);
+        box-shadow: 0px 5px 5px 10px rgba(225, 229, 230, 0.466);
+    }
+
+    .lista-planes ul li{
+        font-size: 12px;
+    }
+    
+    .opciones-planes{
+        background-color: rgba(124, 235, 193, 0.712);
+        display: grid;
+        height: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .opciones-planes h2{
+        font-size: 20px;
+    }
+    .opciones-planes p{
+        font-size: 14px;
+    }
+    .boton-planes{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .beneficios{
+        margin-top: 50px;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 30px;
+        background-color: rgb(230, 240, 240);
+        box-shadow: 0px 5px 5px 10px rgba(173, 224, 228, 0.466);
+        padding-left: 50px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .beneficios h5{
+        font-size: 16px;
+    }
+    
+    .beneficios ul{
+        font-style: oblique;
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .beneficios ul li{
+        padding-right: 20px; 
+    }
+
+    /* recetas */
+
+    .recetas-titulo h3{
+        display: flex;
+        width: 100%;
+        padding-left: 20px;
+        font-size: 30px;
+    } 
+    
+    .contenedor-cards{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 10px;
+        
+    }
+
+    .container-fluid{
+        margin-bottom: 10px;
+    }
+
+    .container-fluid button{
+        width: auto;
+    }
+
+    .container-fluid input{
+        width: 100px;
+    }
+
+    .busqueda{
+        display: flex;
+        justify-content: end;
+        width: 300px;
+        padding-top: 10px;
+    }  
+
+    .d-flex{
+        width: 200px;
+    }
+    
+
+    section{
+        width: 30px;
+    }
+    
+    form{
+        width:160px;
+        padding:14px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#e6898963;
+    }
+    
+    form label{
+        width:52px;
+        font-weight:bold;
+        display:inline-block;
+    }
+    
+    form input[type="text"],
+    form input[type="email"]{
+        width:120px;
+        padding:3px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    
+    form input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    
+    form input[type="submit"]:hover{
+        cursor:pointer;
+    }
+    
+    textarea{
+        width:100%;
+        height:50px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        resize:none;
+        display:block;
+    }
+    
+    
+    .formulario{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+        border: 2px solid black;
+        border-style:double;
+    }
+    .formulario h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        color: rgba(55, 77, 119, 0.788);
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+    
+    .formulario h5{
+        padding-left: 20px;
+        padding-top: 20px; 
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    
+    .formulario h6{
+        padding-left: 20px;
+        padding-top: 20px; 
+        font-size: 16px;
+        padding-right: 21px;
+    }
+
+    .contenedor-desayunos{
+        margin: 100px;
+    }
+
+    /* celiacos */
+
+    .titulo-enfermedad h2{
+        font-size: 26px;
+    }
+    .celiacos- h3{
+        font-size: 18px;
+        padding: 20px;
+    }
+    .celiacos- p{
+        font-size: 16px;
+    }
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 300px 400px 400px 400px 400px;
+        margin: 50px;
+    }
+    
+    .celiacos-{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        border: 1px solid black;
+    }
+
+    .foto-celiacos img{
+        height: 800px;
+        width: 500px;
+        border: 1px solid black;
+        
+    }
+
+    .foto-celiacos{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        padding-left: 10px;
+        padding-top: unset;
+        text-align: center;
+        
+    }
+    
+    
+    .sintomas{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    .sintomas h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .sintomas p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .tratamiento{
+        grid-column: 4/6;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    
+    .tratamiento h3{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 32px;
+    }
+    .tratamiento p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .alimentacion{
+        grid-column: 2/5;
+        grid-row: 5/6;
+        border: 1px solid black;
+    }
+    
+    .alimentacion h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .alimentacion p{
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .contenedor-plan-celiacos{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        grid-template-rows: repeat(2,700px);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: unset;
+    }
+    
+    .objetivo-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        font-style: oblique;
+        padding: 40px;
+    }
+    
+    
+    .info-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 2/3; 
+        text-align: center;
+        font-style: oblique;
+        padding: 60px;
+    }
+    
+    .plan-card-uno{
+        grid-template-columns: 2/3;
+        grid-row: 1/2; 
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .plan-card-dos{
+        grid-template-columns: 2/3;
+        grid-row: 2/3;  
+        text-align: center;
+        padding-top: 70px;
+    }
+
+}
+
+@media (max-width:660px){
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 300px 350px 350px 400px 460px;
+        margin: 50px;
+    }
+    
+    .celiacos-{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        border: 1px solid black;
+    }
+
+    .foto-celiacos img{
+        height: 700px;
+        width: 350px;
+        border: 1px solid black;
+        
+    }
+
+    .foto-celiacos{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        padding-left: 10px;
+        padding-top: unset;
+        text-align: center;
+        
+    }
+    
+    
+    .sintomas{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    .sintomas h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .sintomas p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .tratamiento{
+        grid-column: 4/6;
+        grid-row: 4/6;
+        border: 1px solid black;
+    }
+    
+    .tratamiento h3{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 32px;
+    }
+    .tratamiento p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .alimentacion{
+        grid-column: 1/4;
+        grid-row: 5/6;
+        border: 1px solid black;
+    }
+    
+    .alimentacion h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .alimentacion p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:700px){
+
+    .contenedor-plan-celiacos{
+        display: block;
+        border-radius: unset;
+    }
+    
+    .objetivo-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        font-style: oblique;
+        padding: 40px;
+      
+    }
+    
+    
+    .info-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 2/3; 
+        text-align: center;
+        font-style: oblique;
+        padding: 60px;
+    }
+    
+    .plan-card-uno{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .plan-card-dos{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:600px){
+
+    .testimonios .card{
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        text-align: center;
+        margin-left: 150px;
+        margin right: 150px;
+        
+        
+    }
+    .testimonios{
+        display: block;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .card-body{
+        margin: 10px;
+    }
+
+    .card-body h5{
+        text-align: center;
+    }
+
+    .card-body a{
+        font-size: 8px;
+        margin-left: 70px;
+    }
+
+    .boton-informate h6{
+        font-size: 10px;
+    }
+
+    .boton-informate{
+        width: unset;
+    }
+
+    .contenedor-boton{
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        height: auto;
+    }
+    
+    .contenedor-boton p{
+        padding-top: unset;
+        padding-left: unset;
+        font-size: 12px;
+    }
+    .contenedor-boton h4{
+        padding-top: unset;
+        font-size: 14px;
+     
+    }
+}
+
+@media (max-width:580px){
+    .politica{
+        
+        display: block;
+        margin: 10px;
+        margin-top: 50px;
+        padding: 5px;
+        border-radius: unset;
+        
+    }
+    
+    .politica h2{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 5px;
+        padding-top: 20px;
+        font-size: 16px;
+        }
+        
+        .politica p{
+            padding: 5px;
+            padding-top: 5px;
+            font-style: oblique;
+            font-size: 10px;
+        }
+    
+
+}
+
+@media (max-width:500px){
+    /* imagen index biografia */
+    .biografia div img{
+
+        height: 200px;
+        width: 200px;   
+    }
+    /* conocenos main */
+    .organi-titulo h2{
+        padding-left: 25px;
+        margin-top: 60px;
+        font-size: 18px;
+        font-style: oblique;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(11, 100, 48, 0.829);
+        text-decoration:overline;
+        transition: 0.5s;
+    }
+    
+    .organi-titulo h2:hover{
+        text-decoration: unset;
+        transform: unset;
+    }
+
+    .organigrama{
+        display: block;
+    }
+
+    .doctor{
+        padding-bottom: 10px;
+    }
+    
+    .dr-lorem{
+        padding-top: 5px;
+        padding-bottom: 80px;
+        margin-left: 40px;
+    }
+    
+    .nutricionista{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .dra-juli{
+        padding-bottom: 80px;
+    }
+   
+    .profesor{
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .professor{
+        margin-left: 40px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    
+
+
+    .card-body p{
+        font-size: 14px;
+    }
+
+    .dr-lorem p{
+        font-size: 14px; 
+    }
+
+    .dra-juli p{
+        font-size: 14px; 
+    }
+
+    .professor p{
+        font-size: 14px; 
+    }
+
+    /* planes main */
+    .lista-planes{
+        margin left: 50px;
+        margin-right: 50px;
+    }
+
+    .beneficios{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .opciones-planes{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .opciones-planes h2{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .opciones-planes p{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+.testimonios .card{
+    margin-left: 100px;
+    margin right: 100px;
+}
+
+}
+
+@media (max-width:485px){
+
+
+    .entrenamiento p{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .entrenamiento h1{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .main-secundario h1{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .main-secundario p{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .comida h1{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .comida p{
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+
+
+    footer{
+        background-image: url(../assets/fffffff.jpeg);
+        height: 300px;
+        border-radius: 1%;
+        display: block;
+    }
+    
+    .titulo-footer{
+        display: block;
+        text-align: center;
+        font-size: 24px;
+        padding-top: 20px;
+        color: rgb(102, 167, 106);
+        font-style: oblique;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    
+    .subtitulo-footer{
+        display: block;
+        text-align: center;
+        color: rgba(90, 230, 85, 0.63); 
+        font-size: 15px;
+        text-decoration: underline;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    
+    .contenedor-footer{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .contenedor-footer div h1{
+        color: rgba(226, 241, 157, 0.74);
+        font-size: 10px;
+        padding-top: 25px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: cursive;
+    }
+    .contenedor-footer div p{
+        color: rgb(14, 129, 230);
+        font-size: 10px;
+        padding-left: 15px;
+        padding-bottom: 1px;
+        padding-top: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .contenedor-footer div li{
+        list-style: none;
+    }
+    .contenedor-footer div li a img{
+        
+        padding-bottom: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .contenedor-footer div a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 15px;
+        
+    }
+    
+    .contenedor-footer div{
+    padding-left: 5px;
+    }
+    .contenedor-footer div img{
+        width: 15px;
+        height: 15px;
+    }
+    .contenedor-footer div a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 10px;
+    color: azure;
+    }
+    
+    .logo-footer section img{
+        width: 50px;
+        height: 50px;
+        padding-top: 50px;
+    }
+    
+    .logos-footer{
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        
+    }
+    
+    .logos-footer span{
+        padding-left: 2px;
+        font-style: oblique;
+        font-size: 8px;
+        
+    }
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 350px 350px 350px 500px 500px;
+        margin: 50px;
+    }
+    
+    .celiacos-{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        border: 1px solid black;
+    }
+
+    .foto-celiacos img{
+        height: 700px;
+        width: 300px;
+        border: 1px solid black;
+        
+    }
+
+    .foto-celiacos{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        padding-left: 10px;
+        padding-top: unset;
+        text-align: center;
+        
+    }
+    
+    
+    .sintomas{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        border: 1px solid black;
+    }
+    .sintomas h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .sintomas p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    .tratamiento{
+        grid-column: 4/6;
+        grid-row: 4/6;
+        border: 1px solid black;
+    }
+    
+    .tratamiento h3{
+        font-size: 20px;
+        padding: 5px;
+        padding-top: 20px;
+        margin-bottom: 32px;
+    }
+    .tratamiento p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+    .alimentacion{
+        grid-column: 1/4;
+        grid-row: 5/6;
+        border: 1px solid black;
+    }
+    
+    .alimentacion h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .alimentacion p{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:450px){
+    .boton-informate h6{
+        font-size: 10px;
+    }
+
+    .boton-informate{
+        width: unset;
+    }
+
+    .contenedor-boton{
+        background-color: unset;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        height: 32px;
+    }
+    
+    .contenedor-boton p{
+        padding-top: unset;
+        padding-left: unset;
+        color: transparent;
+        width: 1px;
+    }
+    .contenedor-boton h4{
+        padding-top: unset;
+        font-size: 14px;
+     
+    }
+
+    .testimonios .card{
+        margin-left: 80px;
+        margin right: 80px;
+    }
+
+}
+
+@media (max-width:425px){
+
+    .banner p{
+        font-size: 12px;
+    }
+
+    .biografia div img{
+        height: 130px;
+        width: 130px;
+    }
+
+    .navbar ul{
+        gap: 15px;
+        padding: 1px;
+        padding-left: 1px;
+    }
+    
+    
+    
+    .navbar ul li a{
+        font-size: 14px;
+    }
+
+    header div{
+        display:contents;
+        width: 100%;
+        padding: 1px;
+        
+        
+    }
+
+    .biografia div p{
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    .biografia{
+        margin: 40px;
+
+        
+}
+
+    .imagen-habitos{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+    .imagen-habitos img{
+    width: 230px;
+    height: 230px;
+    border-radius: 5%;
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    border-style: double;
+}
+
+.card-body p{
+    font-size: 10px;
+}
+
+.dr-lorem p{
+    font-size: 11px; 
+}
+
+.dra-juli p{
+    font-size: 11px; 
+}
+
+.professor p{
+    font-size: 11px; 
+}
+
+footer{
+    height: 300px;
+}
+
+/* planes */
+.banersillo h2{
+    font-size: 16px;
+}
+
+.banersillo p{
+    font-size: 14px;
+}
+
+
+.boton{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+} 
+
+.banersillo button{
+    font-size: 14px;
+}
+
+.titulo-plann h2{
+    font-size: 20px;
+    color: #f6f6f6;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.parrafo-plann p{
+    font-size: 12px;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+.contenedor-boton{
+    background-color: unset;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    height: 30px;
+}
+
+.contenedor-boton p{
+    padding-top: unset;
+    padding-left: unset;
+    font-size: 1px;
+}
+.contenedor-boton h4{
+    padding-top: 1px;
+    padding-left: unset;
+    font-size: 1px;
+ 
+}
+
+.boton-informate{
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 2px;
+    width: auto;
+    margin: unset;
+}
+.boton-informate button{
+    font-size: 10px;
+    color:rgb(5, 5, 5);
+}
+
+.lista-planes{
+    background-color: rgba(114, 216, 216, 0.63);
+    box-shadow: 0px 5px 5px 10px rgba(225, 229, 230, 0.466);
+    margin: 40px;
+}
+
+.lista-planes ul li{
+    font-size: 12px;
+}
+
+.opciones-planes{
+    background-color: rgba(133, 163, 152, 0.712);
+    display: grid;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.opciones-planes h2{
+    font-size: 16px;
+}
+.opciones-planes p{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.boton-planes{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-planes button{
+    font-size: 10px;
+}
+
+.beneficios{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.beneficios h5{
+    font-size: 14px;
+}
+
+.beneficios ul{
+    font-size: 12px;
+}
+
+/* recetas */
+.recetas-titulo h3{
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 24px;
+} 
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 10px;
+    
+}
+
+.container-fluid{
+    margin-bottom: 10px;
+}
+
+.d-flex{
+    width: 180px;
+}
+
+.container-fluid button{
+    width: auto;
+}
+
+.container-fluid input{
+    width: 80px;
+}
+
+.formulario{
+    margin: 30px;
+}
+
+form{
+    width:120px;
+    padding:14px;
+    border-radius:10px;
+    margin:auto;
+    background-color:#e6898963;
+}
+
+form label{
+    width:50px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width:100px;
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+}
+
+form input[type="submit"]{
+    width:100%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+    cursor:pointer;
+}
+
+textarea{
+    width:100%;
+    height:50px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;			
+    margin:8px 0;
+    resize:none;
+    display:block;
+}
+
+.formulario h3{
+    font-size: 16px;
+}
+
+.formulario h5{
+    font-size: 15px;
+}
+
+.formulario h6{
+    font-size: 13px;
+}
+
+.contenedor-desayunos{
+    margin: 50px;
+}
+
+/* celiacos */
+
+.titulo-enfermedad h2{
+    font-size: 20px;
+}
+.celiacos- h3{
+    font-size: 16px;
+    padding: 20px;
+}
+
+.celiacos-grids{
+    display: block;
+    margin: 40px;
+}
+
+.celiacos- p{
+    font-size: 12px;
+}
+
+.foto-celiacos img{
+    height: 500px;
+    width: 200px;
+    border: 1px solid black;
+    
+}
+
+.foto-celiacos{
+    padding-left: 1px;
+    padding-top: unset;
+    text-align: center;
+}
+
+.sintomas h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.sintomas p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.tratamiento h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.tratamiento p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.alimentacion p{
+    font-size: 12px; 
+}
+
+.celiacos-dieta h2{
+    font-size: 18px;
+}
+.celiacos-dieta h4{
+    font-size: 18px;
+}
+
+.contenedor-plan-celiacos{
+    display: block;
+    border-radius: unset;
+}
+
+.objetivo-celiacos{
+    font-size: 12px;
+    padding-bottom: unset;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.info-celiacos{
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.plan-card-uno{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card-dos{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonios .card{
+    margin-left: 50px;
+    margin right: 50px;
+}
+
+}
+
+@media (max-width: 380px){
+
+    .testimonios .card{
+        margin-left: 30px;
+        margin right: 30px;
+    }
+}
+
+@media (max-width: 350px){
+
+    .entrenamiento h1{
+        padding-bottom: unset;
+        margin-bottom: unset;
+    }
+
+    .entrenamiento p{
+        padding-top: unset;
+        margin-top: unset;
+        font-size: 11px;
+    }
+
+    .testimonios .card{
+        margin-left: 12px;
+        margin right: 12px;
+    }
 }
 
 /* mobile */
@@ -2443,7 +4676,7 @@ padding-left: 5px;
     text-decoration: none;
     list-style: none;
     font-size: 10px;
-color: azure;
+    color: azure;
 }
 
 .logo-footer section img{
@@ -2497,88 +4730,7 @@ footer div a img:hover{
         font-size: 8px;
     }
 
-    .organi-titulo h2{
-        padding-left: 25px;
-        margin-top: 60px;
-        font-size: 18px;
-        font-style: oblique;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgba(240, 227, 234, 0.829);
-        text-decoration:overline;
-        transition: 0.5s;
-    }
     
-    .organi-titulo h2:hover{
-        text-decoration: unset;
-        transform: unset;
-    }
-
-    .organigrama{
-        display: grid;
-        margin: 20px;
-        padding: 60px;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: 550px 250px 520px 300px 550px 300px;
-        background-color: rgba(0, 0, 255, 0.438);
-        border-top-left-radius: 60%;
-        border-bottom-right-radius: 10%;
-    }
-
-    .doctor{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    
-    .dr-lorem{
-        grid-column: 1/ 2;
-        grid-row: 2/3;
-        margin-left: 40px;
-        
-        
-        
-    }
-    
-    .dr-lorem p{
-        padding-top: 10px;
-        font-style: oblique;
-        font-size: 10px;
-    }
-    
-    .nutricionista{
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
-    .dra-juli{
-        grid-column: 1/2;
-        grid-row: 4/5;
-        padding-top: 10px;
-        margin-left: 40px;
-    }
-    .dra-juli p{
-    font-style: oblique;
-    font-size: 10px;
-    }
-    .profesor{
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    
-    .professor{
-        grid-column: 1/2;
-        grid-row: 6/7;
-        margin-left: 40px;
-        padding-right: 20px;
-        padding-top: 50px;
-        
-        
-        
-    }
-    
-    .professor p{
-        font-style: oblique;
-        font-size: 10px;
-        }
     .card-title{
         font-size: 16px;
     }
@@ -2587,10 +4739,6 @@ footer div a img:hover{
         font-size: 10px;
     }
 
-    .testimonios{
-        display: block;
-        margin-left: 5px;
-    }
     
     .card-body{
         margin: 10px;
@@ -2604,6 +4752,139 @@ footer div a img:hover{
         font-size: 8px;
         margin-left: 70px;
     }
+    .card-body p{
+        font-size: 10px;
+    }
 
+    .testimonios .card{
+        margin-left: 6px;
+        margin-right: unset;
+    }
+}
+
+    /* planes */
+.banersillo h2{
+    font-size: 14px;
+}
+
+.banersillo p{
+    font-size: 12px;
+}
+
+
+.boton{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 50px;
+} 
+
+.banersillo button{
+    font-size: 11px;
+    padding: 1px;
+}
+
+.titulo-plann h2{
+    font-size: 16px;
+}
+
+.parrafo-plann p{
+    font-size: 12px;
+    margin: 20px;
+    padding: 20px;
     
+}
+
+.contenedor-boton{
+    background-color: unset;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    height: 30px;
+}
+
+.contenedor-boton p{
+    padding-top: unset;
+    padding-left: unset;
+    font-size: 1px;
+}
+.contenedor-boton h4{
+    padding-top: 1px;
+    padding-left: unset;
+    font-size: 1px;
+ 
+}
+
+.boton-informate{
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 2px;
+    width: auto;
+    margin: unset;
+}
+.boton-informate button{
+    font-size: 10px;
+    color:rgb(5, 5, 5);
+}
+
+.lista-planes{
+    margin: 20px;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.lista-planes ul li{
+    font-size: 11px;
+    padding: 10px;
+}
+
+.opciones-planes{
+    background-color: rgba(70, 82, 77, 0.815);
+    display:block;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.opciones-planes h2{
+    font-size: 14px;
+    padding: 20px;
+}
+.opciones-planes p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.plan-masa{
+    margin-bottom: 20px;
+}
+
+.plan-masa:hover{
+    border-radius: 15%;
+}
+
+.plan-adelgazar{
+    margin-bottom: 20px;
+}
+
+.plan-adelgazar:hover{
+    border-radius: 15%;
+    }
+
+.plan-quemador{
+    margin-bottom: 20px;
+}
+
+.plan-quemador:hover{
+   border-radius: 15%;
+}
+.plan-calorias{
+    margin-bottom: 20px;;
+}
+.plan-calorias:hover{
+    border-radius: 15%;
+    }
+
+.beneficios{
+    margin-bottom: 30px;
+}
 }
