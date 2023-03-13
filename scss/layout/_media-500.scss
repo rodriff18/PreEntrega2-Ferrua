@@ -1,0 +1,120 @@
+@media (max-width:500px){
+
+/* imagen index biografia */
+.biografia div img{
+    height: 200px;
+    width: 200px;   
+}
+
+/* conocenos main */
+
+.organi-titulo h2{
+    padding-left: 25px;
+    margin-top: 60px;
+    font-size: 18px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(11, 100, 48, 0.829);
+    text-decoration:overline;
+    transition: 0.5s;
+    &:hover{
+        text-decoration: unset;
+        transform: unset;
+    }
+}
+
+.organigrama{
+    display: block;
+}
+
+.doctor{
+    padding-bottom: 10px;
+}
+
+.dr-lorem{
+    padding-top: 5px;
+    padding-bottom: 80px;
+    margin-left: 40px;
+    p{
+        font-size: 14px; 
+    }
+
+}
+
+.nutricionista{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.dra-juli{
+    padding-bottom: 80px;
+    p{
+        font-size: 14px; 
+    }
+}
+
+.entrenamiento p{
+    padding-top: unset;
+}
+
+.entrenamiento p{
+    padding-top: unset;
+}
+
+.entrenamiento h1{
+    padding-bottom: unset;
+}
+
+.profesor{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.professor{
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-top: 10px;
+    p{
+        font-size: 14px; 
+    }
+}
+
+.card-body p{
+    font-size: 14px;
+}
+
+/* planes main */
+
+.lista-planes{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.beneficios{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.opciones-planes{
+    margin-left: 10px;
+    margin-right: 10px;
+    h2{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    p{
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.testimonios .card{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+}

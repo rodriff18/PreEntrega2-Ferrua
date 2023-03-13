@@ -1,0 +1,97 @@
+footer{
+    background-image: url(../assets/fffffff.jpeg);
+    height: 340px;
+    border-radius: 1%;
+}
+.titulo-footer{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(102, 167, 106);
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulo-footer{
+    display: flex;
+    justify-content: center;
+    color: rgba(90, 230, 85, 0.63); 
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    div h1{
+        color: rgba(226, 241, 157, 0.74);
+        font-size: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: cursive;
+    }
+    div p{
+        color: rgb(14, 129, 230);
+        font-size: 15px;
+        padding-left: 70px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.contenedor-footer div li{
+    list-style: none;
+}
+.contenedor-footer div li a img{
+    padding-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor-footer div a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 70px;
+        
+    }
+    
+    .contenedor-footer div{
+    padding-left: 30px;
+    }
+    .contenedor-footer div img{
+        width: 30px;
+        height: 30px;
+    }
+    .contenedor-footer div a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 15px;
+    color: azure;
+    }
+    
+    .logo-footer section img{
+        width: 180px;
+        height: 180px;
+        padding-top: 50px;
+    }
+    
+    .logos-footer{
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        span{
+            padding-left: 20px;
+            font-style: oblique;
+        } 
+    }
+    
+    footer div a img:hover{
+        transform: scale(1.4);
+    }

@@ -1,0 +1,55 @@
+@media (max-width:600px){
+
+    .testimonios{
+        display: block;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .testimonios .card{
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .card-body{
+        margin: 10px;
+        h5{
+            text-align: center;
+        }
+        a{
+            font-size: 8px;
+            margin-left: 70px;
+        }
+    }
+
+    .boton-informate{
+        width: unset;
+        h6{
+            font-size: 10px;
+        }
+    }
+
+    .contenedor-boton{
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        height: auto;
+        h4{
+            padding-top: unset;
+            font-size: 14px;
+        }
+        p{
+            padding-top: unset;
+            padding-left: unset;
+            font-size: 12px;
+        }
+    }
+
+
+
+}

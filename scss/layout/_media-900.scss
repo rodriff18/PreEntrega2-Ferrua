@@ -1,0 +1,183 @@
+@media (max-width:900px){
+
+/* INDEX MAIN */
+
+.main-secundario{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,250px);
+    height: 770px;
+    gap: 10px;
+}
+
+.planes{
+    background-image: url(../assets/planes-uno.jpg);
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 10px;
+    border-radius: 0%;
+}
+
+.comida{
+    background-image: url(../assets/comida-saludable.jpg);
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: 10px;
+    border-radius: 0%;
+    h1{
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    p{
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+}
+
+.entrenamiento{
+    background-image: url(../assets/fit.jpg);
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 10px;
+    border-radius: 0%;
+    h1{
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+    }
+}
+
+.planes h1{
+    padding-bottom: 5px;
+    margin-bottom: 5px;  
+}
+
+.planes p{
+    padding-top: 5px;
+    margin-top: 5px;  
+}
+
+.contenedor-boton h4{
+    color: transparent;
+    width: 1px;
+}
+
+/* CELIACOS MAIN */
+
+.celiacos-{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+.celiacos-grids{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 300px 400px 400px 400px 400px;
+    margin: 50px;
+}
+
+.foto-celiacos{
+    grid-column: 2/5;
+    grid-row: 2/4;
+    padding-left: 10px;
+    padding-top: unset;
+    img{
+        height: 800px;
+        width: 500px;
+        border: 1px solid black;
+    } 
+}
+
+.sintomas{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+.tratamiento{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+.alimentacion{
+    grid-column: 2/5;
+    grid-row: 5/6;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+.contenedor-plan-celiacos{
+    display: grid;
+    grid-template-columns: 300px 400px;
+    grid-template-rows: repeat(2,700px);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: unset;
+}
+
+.objetivo-celiacos{
+    grid-template-columns: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-style: oblique;
+    padding: 40px;
+}
+
+.info-celiacos{
+    grid-template-columns: 1/2;
+    grid-row: 2/3; 
+    text-align: center;
+    font-style: oblique;
+    padding: 60px;
+}
+
+.plan-card-uno{
+    grid-template-columns: 2/3;
+    grid-row: 1/2; 
+    text-align: center;
+    padding-top: 70px;
+}
+
+.plan-card-dos{
+    grid-template-columns: 2/3;
+    grid-row: 2/3;  
+    text-align: center;
+    padding-top: 70px;
+}
+
+.logo-footer section img{
+    width: 0%;
+}
+}

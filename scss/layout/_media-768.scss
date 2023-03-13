@@ -1,0 +1,923 @@
+@media (max-width:768px){
+
+/* HEADER */
+header{
+    background-color: rgba(185, 131, 202, 0.452);
+    div{
+        display:flex;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.navbar ul{
+    display: flex;
+    background-color: rgba(15, 15, 15, 0.87);
+    gap: 20px;
+    justify-content: center;
+    padding: 2px;
+    list-style: none;
+    padding-left: 1px;
+    height: 30px;
+    border-top-left-radius: 0%;
+    width: 100%;
+    li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(238, 231, 231);
+        justify-content: center;
+    }
+}
+
+.logo{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(228, 230, 233);
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px rgb(41, 146, 233);
+    &:hover{
+        font-size: 28px;
+        }
+}
+
+.subtitulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: rgba(255, 251, 251, 0.342);
+    margin-left: 30px;
+    padding-top: 30px;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.redes{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+    width: 100%;
+    li a img{
+        height: 18px;
+        width: 18px;
+        padding-top: 1px; 
+    }
+}
+
+/*INDEX MAIN*/
+
+.banner{
+    background-image: url(../assets/banner-main.jpg);
+    height: 320px;
+    margin: 5px;
+    h1{
+        padding-left: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 20px;
+        font-size: 30px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        color: rgba(27, 4, 8, 0.753);
+        box-shadow: 10px 10px 10px 10px rgb(17, 15, 15);
+        border-radius: 20px;
+        font-style: oblique;
+        &:hover{
+            text-decoration: unset;
+            text-decoration-color: rgb(235, 229, 229);
+        }
+    }
+    p{
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+        font-family: cursive;
+        color: rgb(243, 243, 243);
+        font-size: 14px;
+        background-color: rgba(0, 0, 0, 0.336);
+        margin-top: 60px;
+    }
+    
+}
+
+main{
+    background-color: rgba(223, 223, 214, 0.548);
+}
+
+.servicios{
+    display: flex;
+    justify-content:center;
+    margin: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(146, 136, 136, 0.726);
+    border-radius: 20%;
+    h1{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-size: 24px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgba(7, 7, 65, 0.575);
+        transition: 0.5s;
+        &:hover{
+            box-shadow: unset;
+            font-size: 24px;
+            color: #fff;
+        }
+    }
+}
+
+.main-secundario{
+    background-color: rgb(110, 139, 196);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,250px);
+    height: 770px;
+    gap: 10px;
+}
+
+.planes{
+    background-image: url(../assets/planes-uno.jpg);
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 10px;
+    border-radius: 0%;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: unset;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        padding: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+    }
+    p{
+        display: flex;
+        font-size: 14px;
+        justify-content: center;
+        font-family: cursive;
+        color: rgb(14, 13, 13);
+        padding: 15px;
+        &:hover{
+            background-color: rgba(240, 255, 255, 0.247);
+        }
+    }
+
+}
+
+.comida{
+    background-image: url(../assets/comida-saludable.jpg);
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin: 10px;
+    border-radius: 0%;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: unset;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        padding: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(44, 6, 42, 0.719);
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-family: cursive;
+        color: rgb(14, 13, 13);
+        padding: 15px;
+        &:hover{
+            background-color: rgba(240, 255, 255, 0.247);
+        }
+    }
+}
+
+.entrenamiento{
+    background-image: url(../assets/fit.jpg);
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 10px;
+    border-radius: 0%;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: unset;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        padding: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        font-family: cursive;
+        color: rgb(14, 13, 13);
+        padding: 15px;
+        &:hover{
+            background-color: rgba(240, 255, 255, 0.247);
+        }
+    }
+}
+
+.main-tercero{
+    background-color: rgba(52, 114, 114, 0.808);
+    display:block;
+    margin-top: 20px;
+}
+
+.habitos{
+    width: 100%;
+    h1{
+        font-size: 26px;
+        text-align: center;
+        font-style: oblique;
+        color: rgb(232, 236, 225);
+        padding: 15px;
+    }
+    p{
+        font-family: cursive;
+        font-size: 15px;
+        padding: 20px;
+        background-color: rgba(240, 248, 255, 0.274);
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        font-style: oblique;
+        color: rgb(232, 236, 225);
+        padding: 15px;
+    }
+
+}
+
+.imagen-habitos{
+    margin-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 400px;
+        height: 400px;
+        border-radius: 5%;
+        border: 5px solid rgba(0, 0, 0, 0.212);
+        border-style: double;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.1);
+            border-style: double;
+            border-color: black;
+        }
+        
+    }
+    
+}
+
+.banner-main{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    height: 100px;
+    &:hover{
+        box-shadow: unset
+    }
+}
+
+.probando{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 14px;
+    font-style: oblique;
+    img{
+        height: 40px;
+        width: 40px;
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+}
+
+.biografia{
+    background-color: cornflowerblue;
+    margin: 80px;
+    display: block;
+    border: 5px solid rgba(34, 37, 13, 0.76);
+    text-align: center;
+    div h2{
+        color: aliceblue;
+        text-align: center;
+        padding-top: 40px;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    div p{
+        color: aliceblue;
+        text-align: center;
+        font-size: 16px;
+        padding: 50px;
+        font-family: cursive;
+    }
+    div img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* INDEX FOOTER */
+
+footer{
+    background-image: url(../assets/fffffff.jpeg);
+    height: 320px;
+    border-radius: 1%;
+    display: block;
+    div a img:hover{
+        transform: scale(1.4);
+    }
+}
+
+.titulo-footer{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(102, 167, 106);
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.subtitulo-footer{
+    display: block;
+    text-align: center;
+    color: rgba(90, 230, 85, 0.63); 
+    font-size: 17px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    div h1{
+        color: rgba(226, 241, 157, 0.74);
+        font-size: 15px;
+        padding-top: 25px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: cursive;
+    }
+    div p{
+        color: rgb(14, 129, 230);
+        font-size: 12px;
+        padding-left: 15px;
+        padding-bottom: 1px;
+        padding-top: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    div li{
+        list-style: none;
+    }
+    div li a img{
+        padding-bottom: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    div a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 18px;
+        color: azure;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-left: 15px;  
+    }
+    div{
+        padding-left: 5px;
+    }
+    div img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.logo-footer section img{
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.logos-footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    span{
+        padding-left: 2px;
+        font-style: oblique;
+        font-size: 12px;
+    }
+    
+}
+
+/* CONOCENOS MAIN */
+
+.carousel-caption h5{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transition: 0.8s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-caption p{
+    transition: 0.8s;
+    padding-bottom: 100px;
+    color: rgb(2, 2, 2);
+}
+
+.politica{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    border: 2px solid rgb(12, 12, 12);
+    padding: 15px;
+    margin-top: 50px;
+    div{
+        border: 1px solid rgb(90, 87, 87);
+    }
+}
+
+.organigrama{
+    display: grid;
+    margin: 20px;
+    padding: 60px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 80px 1fr 80px 1fr;
+    background-color: rgba(0, 0, 255, 0.438);
+    border-top-left-radius: 60%;
+    border-bottom-right-radius: 10%;
+    h2{
+        padding-left: 80px;
+        margin-top: 100px;
+        font-size: 42px;
+        font-style: oblique;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(48, 11, 31, 0.829);
+        text-decoration:overline;
+        transition: 0.5s;
+        &:hover{
+            text-decoration: underline;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.doctor{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.dr-lorem{
+    grid-column: 3/ 5;
+    grid-row: 1/2;
+    margin-left: 40px;
+    p{
+        padding-top: 50px;
+        font-style: oblique;
+        font-size: 18px;
+    }
+}
+
+.nutricionista{
+    grid-column: 5/3;
+    grid-row: -4/-3;
+}
+
+.dra-juli{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-top: 50px;
+    p{
+        font-style: oblique;
+        font-size: 18px;
+    }
+}
+
+.profesor{
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+.professor{
+    grid-column: 3/5;
+    grid-row: 5/6;
+    margin-left: 40px;
+    padding-right: 20px;
+    padding-top: 50px;
+    p{
+        font-style: oblique;
+        font-size: 18px;
+    }
+}
+
+.testimonios{
+    display: flex;
+    justify-content: center;
+    margin: unset;
+}
+
+.titulo-testimonios{
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+/* PLANES MAIN */
+
+.banersillo{
+    height: 400px;
+    margin-top: 5px;
+    h2{
+        font-size: 22px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+.boton{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 70px;
+} 
+
+.banersillo button{
+    font-size: 16px;
+}
+
+.titulo-plann h2{
+    font-size: 30px;
+}
+
+.contenedor-boton{
+    margin-left: 10px;
+    margin-right: 50px;
+    display: flex;
+    height: auto;
+    p{
+        padding-top: 10px;
+        padding-left: 45px;
+        font-size: 14px;
+    }
+    h4{
+        padding-top: 15px;
+        padding-left: 0px;
+        font-size: 14px;
+    }
+}
+
+.boton-informate{
+    padding-left: 50px;
+    padding-top: 2px;
+}
+
+.boton-informate button{
+    font-size: 20px;
+    color:rgb(5, 5, 5);
+}
+
+.lista-planes{
+    background-color: rgba(114, 216, 216, 0.63);
+    box-shadow: 0px 5px 5px 10px rgba(225, 229, 230, 0.466);
+    ul li{
+        font-size: 12px;
+    }
+}
+
+.opciones-planes{
+    background-color: rgba(124, 235, 193, 0.712);
+    display: grid;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+}
+
+.logo-footer section img{
+    width: 0%;
+}
+
+.boton-planes{
+    display: flex;
+    justify-content: center;
+}
+
+.beneficios{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    background-color: rgb(230, 240, 240);
+    box-shadow: 0px 5px 5px 10px rgba(173, 224, 228, 0.466);
+    padding-left: 50px;
+    padding-bottom: 20px;
+    h5{
+        font-size: 16px;
+    }
+    ul{
+        font-style: oblique;
+        font-size: 14px;
+        padding-right: 20px;
+        li{
+            padding-right: 20px; 
+        }
+    }
+}
+
+/* RECETAS */
+
+.recetas-titulo h3{
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 30px;
+} 
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.container-fluid{
+    margin-bottom: 10px;
+    button{
+        width: auto;
+    }
+    input{
+        width: 100px;
+    }
+}
+
+.busqueda{
+    display: flex;
+    justify-content: end;
+    width: 300px;
+    padding-top: 10px;
+} 
+
+.d-flex{
+    width: 200px;
+}
+
+section{
+    width: 30px;
+}
+
+form{
+    width:160px;
+    padding:14px;
+    border-radius:10px;
+    margin:auto;
+    background-color:#e6898963;
+    label{
+        width:52px;
+        font-weight:bold;
+        display:inline-block;
+    }
+}
+
+form input[type="text"],
+    form input[type="email"]{
+        width:120px;
+        padding:3px 10px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;
+        margin:8px 0;
+        display:inline-block;
+    }
+    
+    form input[type="submit"]{
+        width:100%;
+        padding:8px 16px;
+        margin-top:32px;
+        border:1px solid #000;
+        border-radius:5px;
+        display:block;
+        color:#fff;
+        background-color:#000;
+    } 
+    
+    form input[type="submit"]:hover{
+        cursor:pointer;
+    }
+    
+    textarea{
+        width:100%;
+        height:50px;
+        border:1px solid #f6f6f6;
+        border-radius:3px;
+        background-color:#f6f6f6;			
+        margin:8px 0;
+        resize:none;
+        display:block;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+        border: 2px solid black;
+        border-style:double;
+        h3{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            color: rgba(55, 77, 119, 0.788);
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 10px;
+        }
+        h5{
+            padding-left: 20px;
+            padding-top: 20px; 
+            font-size: 18px;
+            padding-right: 20px;
+        }
+        h6{
+            padding-left: 20px;
+            padding-top: 20px; 
+            font-size: 16px;
+            padding-right: 21px;
+        }
+    }
+
+    .contenedor-desayunos{
+        margin: 100px;
+    }
+
+    /* CELIACOS */
+
+    .titulo-enfermedad h2{
+        font-size: 26px;
+    }
+
+    .celiacos-{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        border: 1px solid black;
+        h3{
+            font-size: 18px;
+            padding: 20px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 300px 400px 400px 400px 400px;
+        margin: 50px;
+    }
+
+    .foto-celiacos{
+        grid-column: 1/6;
+        grid-row: 2/4;
+        padding-left: 10px;
+        padding-top: unset;
+        text-align: center;
+        img{
+            height: 800px;
+            width: 500px;
+            border: 1px solid black;
+        }
+    }
+
+    .sintomas{
+        grid-column: 1/4;
+        grid-row: 4/5;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        p{
+            font-size: 16px;
+            padding: 20px;
+        }
+    }
+
+    .tratamiento{
+        grid-column: 4/6;
+        grid-row: 4/5;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        p{
+            font-size: 16px;
+            padding: 20px;
+        }
+    }
+
+    .alimentacion{
+        grid-column: 2/5;
+        grid-row: 5/6;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        p{
+            font-size: 16px;
+            padding: 20px;
+        }
+    }
+
+    .contenedor-plan-celiacos{
+        display: grid;
+        grid-template-columns: 300px 400px;
+        grid-template-rows: repeat(2,700px);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: unset;
+    }
+
+    .objetivo-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        font-style: oblique;
+        padding: 40px;
+    }
+
+    .info-celiacos{
+        grid-template-columns: 1/2;
+        grid-row: 2/3; 
+        text-align: center;
+        font-style: oblique;
+        padding: 60px;
+    }
+
+    .plan-card-uno{
+        grid-template-columns: 2/3;
+        grid-row: 1/2; 
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .plan-card-dos{
+        grid-template-columns: 2/3;
+        grid-row: 2/3;  
+        text-align: center;
+        padding-top: 70px;
+    }
+} 

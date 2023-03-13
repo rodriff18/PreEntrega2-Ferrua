@@ -1,0 +1,34 @@
+@media (max-width:450px){
+
+    .boton-informate{
+        width: unset;
+        h6{
+            font-size: 10px;
+        }
+    
+    }
+
+    .contenedor-boton{
+        background-color: unset;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        height: 32px;
+        h4{
+            padding-top: unset;
+            font-size: 14px;
+        }
+        p{
+            padding-top: unset;
+            padding-left: unset;
+            color: transparent;
+            width: 1px;
+        }
+    }
+    
+    .testimonios .card{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+}

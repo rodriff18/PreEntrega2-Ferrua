@@ -1,0 +1,17 @@
+@mixin flex ($just, $align, $gap){
+    display: flex;
+    justify-content: $just;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin posicionar ($pad, $mar){
+    padding: $pad;
+    margin: $mar;
+}
+
+@mixin grid ($col, $row){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}

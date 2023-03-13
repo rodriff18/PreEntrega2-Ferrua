@@ -1,0 +1,377 @@
+@media (max-width:425px){
+
+/* HEADER */
+
+header div{
+    display:contents;
+    width: 100%;
+    padding: 1px;
+}
+
+.navbar ul{
+    gap: 15px;
+    padding: 1px;
+    padding-left: 1px;
+    li a{
+        font-size: 14px;
+    }
+}
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+}
+
+/* INDEX MAIN */
+
+.banner p{
+    font-size: 12px;
+}
+
+.biografia{
+    margin: 40px;
+    div img{
+        height: 130px;
+        width: 130px;
+    }
+    div p{
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+.imagen-habitos{
+    margin-left: 10px;
+    padding-top: 20px;
+    img{
+        width: 230px;
+        height: 230px;
+        border-radius: 5%;
+        border: 5px solid rgba(0, 0, 0, 0.212);
+        border-style: double;
+    }
+}
+
+.card-body p{
+    font-size: 10px;
+}
+
+
+/* CONOCENOS MAIN */
+
+.dr-lorem p{
+    font-size: 11px; 
+}
+
+.dra-juli p{
+    font-size: 11px; 
+}
+
+.professor p{
+    font-size: 11px; 
+}
+
+/* planes */
+
+.banersillo h2{
+    font-size: 16px;
+}
+
+.banersillo p{
+    font-size: 14px;
+}
+
+.boton{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+} 
+
+.banersillo button{
+    font-size: 14px;
+}
+
+.titulo-plann h2{
+    font-size: 20px;
+    color: #f6f6f6;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.parrafo-plann p{
+    font-size: 12px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.contenedor-boton{
+    background-color: unset;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    height: 30px;
+    h4{
+        padding-top: 1px;
+        padding-left: unset;
+        font-size: 1px;
+    }
+    p{
+        padding-top: unset;
+        padding-left: unset;
+        font-size: 1px;
+    }
+}
+
+.boton-informate{
+    padding-left: unset;
+    padding-right: unset;
+    padding-top: 2px;
+    width: auto;
+    margin: unset;
+    button{
+        font-size: 10px;
+        color:rgb(5, 5, 5);
+    }
+}
+
+.lista-planes{
+    background-color: rgba(114, 216, 216, 0.63);
+    box-shadow: 0px 5px 5px 10px rgba(225, 229, 230, 0.466);
+    margin: 40px;
+    ul li{
+        font-size: 12px;
+    }
+}
+
+.opciones-planes{
+    background-color: rgba(133, 163, 152, 0.712);
+    display: grid;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.boton-planes{
+    display: flex;
+    justify-content: center;
+    button{
+        font-size: 10px;
+    }
+}
+
+.beneficios{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    h5{
+        font-size: 14px;
+    }
+    ul{
+        font-size: 12px;
+    }
+}
+
+/* recetas */
+.recetas-titulo h3{
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 24px;
+} 
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.d-flex{
+    width: 180px;
+}
+
+.container-fluid{
+    margin-bottom: 10px;
+    button{
+        width: auto;
+    }
+    input{
+        width: 80px;
+    }
+}
+
+.formulario{
+    margin: 30px;
+    h3{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 13px;
+    }
+}
+
+form{
+    width:120px;
+    padding:14px;
+    border-radius:10px;
+    margin:auto;
+    background-color:#e6898963;
+    label{
+        width:50px;
+        font-weight:bold;
+        display:inline-block;
+    }
+}
+
+form input[type="text"],
+form input[type="email"]{
+    width:100px;
+    padding:3px 10px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;
+    margin:8px 0;
+    display:inline-block;
+}
+
+form input[type="submit"]{
+    width:100%;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+    cursor:pointer;
+}
+
+textarea{
+    width:100%;
+    height:50px;
+    border:1px solid #f6f6f6;
+    border-radius:3px;
+    background-color:#f6f6f6;			
+    margin:8px 0;
+    resize:none;
+    display:block;
+}
+
+.contenedor-desayunos{
+    margin: 50px;
+}
+
+/* celiacos */
+
+.titulo-enfermedad h2{
+    font-size: 20px;
+}
+
+.celiacos- h3{
+    font-size: 16px;
+    padding: 20px;
+}
+
+.celiacos-grids{
+    display: block;
+    margin: 40px;
+}
+
+.celiacos- p{
+    font-size: 12px;
+}
+
+.foto-celiacos{
+    padding-left: 1px;
+    padding-top: unset;
+    text-align: center;
+    img{
+        height: 500px;
+        width: 200px;
+        border: 1px solid black;
+    }
+}
+
+.sintomas h3{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sintomas p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.tratamiento h3{
+    font-size: 20px;
+    padding: 20px;
+}
+.tratamiento p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.alimentacion p{
+    font-size: 12px; 
+}
+
+.celiacos-dieta h2{
+    font-size: 18px;
+}
+.celiacos-dieta h4{
+    font-size: 18px;
+}
+
+.contenedor-plan-celiacos{
+    display: block;
+    border-radius: unset;
+}
+
+.objetivo-celiacos{
+    font-size: 12px;
+    padding-bottom: unset;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-celiacos{
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimonios .card{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.plan-card-uno{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card-dos{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+}

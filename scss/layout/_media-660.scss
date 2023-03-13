@@ -1,0 +1,76 @@
+@media (max-width: 660px){
+
+/* CELIACOS */
+
+.celiacos-{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    border: 1px solid black;
+}
+
+.celiacos-grids{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 300px 350px 350px 400px 460px;
+    margin: 50px;
+}
+
+.foto-celiacos{
+    grid-column: 1/6;
+    grid-row: 2/4;
+    padding-left: 10px;
+    padding-top: unset;
+    text-align: center;
+    img{
+        height: 700px;
+        width: 350px;
+        border: 1px solid black;
+        
+    }
+    
+}
+
+.sintomas{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+
+.tratamiento{
+    grid-column: 4/6;
+    grid-row: 4/6;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 20px;
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+    
+}
+
+.alimentacion{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    border: 1px solid black;
+    h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    p{
+        font-size: 16px;
+        padding: 20px;
+    }
+}
+}
