@@ -5,15 +5,38 @@
 header div{
     display:contents;
     width: 100%;
-    padding: 1px;
+    padding: unset;
 }
 
 .navbar ul{
     gap: 15px;
-    padding: 1px;
-    padding-left: 1px;
+    padding: 10px;
+    padding-left: 5px;
     li a{
         font-size: 14px;
+    }
+
+}
+
+.titulo{
+    margin-bottom: unset;
+    padding-bottom: unset;
+}
+
+.subtitulo{
+    color: #eae7b1b2;
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+    text-decoration: unset;
+}
+
+.redes{
+    gap: 15px;
+    width: 100%;
+    li a img{
+        height: 25px;
+        width: 25px;
     }
 }
 
@@ -25,8 +48,28 @@ footer{
 
 /* INDEX MAIN */
 
-.banner p{
-    font-size: 12px;
+.banner{
+    height: 500px;
+    h2{
+        text-align: center;
+        padding-left: 20px;
+        font-size: 50px;
+        background-image: linear-gradient(100deg,#3C6255,#A6BB8D,#3C6255);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
+    p{
+        width: 80%;
+        font-size: 16px;
+        box-shadow: 0px 10px 10px 10px #eae7b1cb;
+    }
+}
+
+.servicios{
+    h2{
+        font-size: 28px;
+    }
 }
 
 .biografia{
@@ -94,8 +137,8 @@ footer{
 
 .titulo-plann h2{
     font-size: 20px;
-    color: #f6f6f6;
-    background-color: rgba(0, 0, 0, 0.671);
+    color: #EAE7B1;
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 .parrafo-plann p{
@@ -135,8 +178,6 @@ footer{
 }
 
 .lista-planes{
-    background-color: rgba(114, 216, 216, 0.63);
-    box-shadow: 0px 5px 5px 10px rgba(225, 229, 230, 0.466);
     margin: 40px;
     ul li{
         font-size: 12px;
@@ -144,7 +185,7 @@ footer{
 }
 
 .opciones-planes{
-    background-color: rgba(133, 163, 152, 0.712);
+    background-color: #61876e62;
     display: grid;
     height: auto;
     margin-left: 10px;
@@ -190,10 +231,10 @@ footer{
 } 
 
 .contenedor-cards{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 10px;
+        
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
 }
 
 .d-flex{
@@ -224,11 +265,10 @@ footer{
 }
 
 form{
-    width:120px;
+    width:80%;
     padding:14px;
     border-radius:10px;
     margin:auto;
-    background-color:#e6898963;
     label{
         width:50px;
         font-weight:bold;
@@ -238,7 +278,7 @@ form{
 
 form input[type="text"],
 form input[type="email"]{
-    width:100px;
+    width:100%;
     padding:3px 10px;
     border:1px solid #f6f6f6;
     border-radius:3px;
@@ -251,11 +291,6 @@ form input[type="submit"]{
     width:100%;
     padding:8px 16px;
     margin-top:32px;
-    border:1px solid #000;
-    border-radius:5px;
-    display:block;
-    color:#fff;
-    background-color:#000;
 } 
 
 form input[type="submit"]:hover{

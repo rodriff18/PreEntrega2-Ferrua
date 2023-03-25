@@ -2,23 +2,23 @@ footer{
     background-image: url(../assets/fffffff.jpeg);
     height: 340px;
     border-radius: 1%;
+    opacity: 0.9;
 }
 .titulo-footer{
     display: flex;
     justify-content: center;
     font-size: 50px;
     color: rgb(102, 167, 106);
-    font-style: oblique;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cinzel';
 }
 
 .subtitulo-footer{
     display: flex;
     justify-content: center;
-    color: rgba(90, 230, 85, 0.63); 
+    color: #A6BB8D;
     font-size: 25px;
-    text-decoration: underline;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    font-family: 'Cinzel';
 }
 
 .contenedor-footer{
@@ -34,7 +34,7 @@ footer{
         font-family: cursive;
     }
     div p{
-        color: rgb(14, 129, 230);
+        color: #eae7b1d8;
         font-size: 15px;
         padding-left: 70px;
         padding-bottom: 0px;
@@ -89,6 +89,7 @@ footer{
         span{
             padding-left: 20px;
             font-style: oblique;
+            color: #A6BB8D;
         } 
     }
     

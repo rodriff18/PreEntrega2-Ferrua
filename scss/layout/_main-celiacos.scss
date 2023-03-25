@@ -8,14 +8,17 @@
 .celiacos-{
     grid-column: 1/3;
     grid-row: 1/2;
-    border: 1px solid black;
+    border: 1px solid #eae7b1a4;
     h3{
         text-align: center;
         padding: 20px;
+        background-color: #eae7b1a4;
+        color: rgba(0, 0, 0, 0.658);
     }
     p{
         text-align: center;
         padding: 20px;
+        font-size: 18px;
     }
 }
 
@@ -28,10 +31,12 @@
 .sintomas{
     grid-column: 1/2;
     grid-row: 2/3;
-    border: 1px solid black;
+    border: 1px solid #eae7b1a4;
     h3{
         text-align: center;
         padding: 5px;
+        background-color: #eae7b1a4;
+        color: rgba(0, 0, 0, 0.658);
     }
     p{
         text-align: center;
@@ -42,10 +47,13 @@
 .tratamiento{
     grid-column: 2/3;
     grid-row: 2/3;
-    border: 1px solid black;
+    border: 1px solid #eae7b1a4;
     h3{
         text-align: center;
         padding: 18px;
+        background-color: #eae7b1a4;
+        color: rgba(0, 0, 0, 0.658);
+        height: 77px;
     }
     p{
         text-align: center;
@@ -56,10 +64,12 @@
 .alimentacion{
     grid-column: 1/3;
     grid-row: 3/4;
-    border: 1px solid black;
+    border: 1px solid #eae7b1a4;
     h3{
         text-align: center;
         padding: 20px;
+        background-color: #eae7b1a4;
+        color: rgba(0, 0, 0, 0.658);
     }
     p{
         text-align: center;
@@ -68,28 +78,31 @@
 }
 
 .titulo-enfermedad{
-    background-color: rgba(173, 128, 62, 0.24);
+    background: radial-gradient(#3C6255,#61876E,#A6BB8D);
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    box-shadow: 0px 0px 10px 10px #EAE7B1;
     h2{
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family:'Times New Roman';
         font-size: 38px;
         text-align: center;
         padding: 50px;
+        color: #eae7b1e0;
     }
 }
 
 .celiacos-dieta h2{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: cornflowerblue;
+    color: #eae7b1cc;
     padding-top: 50px;
 }
 
 .celiacos-dieta h4{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size: 20px;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.664);
     text-decoration:overline
 }
 
@@ -99,9 +112,10 @@
     grid-template-rows: repeat(2,600px);
     margin-left: 200px;
     margin-right: 200px;
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 20px;
-    background-color: rgb(246, 250, 250);
+    background: radial-gradient(#3C6255,#A6BB8D,#EAE7B1);
     padding: 20px;
     border: 2px double rgb(162, 202, 124);
     border-radius: 10%;
@@ -113,6 +127,14 @@
     text-align: center;
     font-style: oblique;
     padding: 40px;
+    h6{
+        font-size: 30px;
+        color: #121312b2;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
 }
 
 .info-celiacos{
@@ -121,16 +143,26 @@
     text-align: center;
     font-style: oblique;
     padding: 60px;
+    h6{
+        font-size: 30px;
+        color: #121312b2;
+        padding-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
 }
 
 .plan-card-uno{
     grid-template-columns: 2/3;
     grid-row: 1/2; 
     text-align: center;
+    margin-top: 60px;
 }
 
 .plan-card-dos{
     grid-template-columns: 2/3;
     grid-row: 2/3;  
     text-align: center;
+    margin-top: 30px;
 }

@@ -1,0 +1,172 @@
+@media (max-width:1440px){
+
+/* HEADER */
+
+    .titulo{
+        font-size: 80px;
+    }
+
+    /* INDEX */
+
+    .banner{
+        height: 500px;
+        h2{
+            font-size: 70px;
+        }
+       p{
+        font-size: 26px;
+        width: 70%;
+       }
+}
+
+.servicios{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2{
+        font-size: 50px;
+    }
+}
+
+    .planes{
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    
+    .comida{
+        h2{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+    .entrenamiento{
+        h2{
+            font-size: 40px;
+            padding: 10px;
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            padding: 5px;
+            text-align: center;
+        }
+    }
+
+    .habitos{
+        width: 100%;
+        h2{
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+            font-size: 22px;
+            padding: 20px;
+        }
+        h3{
+            font-size: 30px;
+            text-align: center;
+            padding-left: unset;
+        }
+    }
+    
+    .imagen-habitos{
+        margin-left: 80px;
+        padding-top: 20px;
+        img{
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .celiacos-grids{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(3,500px);
+        margin: 50px;
+    }
+    
+    .celiacos-{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border: 1px solid #eae7b1a4;
+        h3{
+            text-align: center;
+            padding: 20px;
+            background-color: #eae7b1a4;
+            color: rgba(0, 0, 0, 0.658);
+        }
+        p{
+            text-align: center;
+            padding: 20px;
+            padding-top: 20px;
+            font-size: 22px;
+        }
+    }
+
+    .sintomas{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 10px;
+            height: 70px;
+        }
+        p{
+            font-size: 16px;
+            padding: 20px;
+        }
+    }
+    
+    .tratamiento{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 10px;
+            margin-bottom: 32px;
+            height: 70px;
+        }
+        p{
+            font-size: 16px;
+            padding: 10px;
+        }
+    }
+    
+    .alimentacion{
+        grid-column: 1/3;
+        grid-row: 3/4;
+        border: 1px solid black;
+        h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        p{
+            font-size: 18px;
+            padding: 20px;
+            padding-top: 40px;
+        }
+    }
+
+    .plan-masa{
+        h2{
+            padding-bottom: 15px;
+        }
+    }
+}

@@ -1,30 +1,31 @@
 main{
-    background-color: rgba(248, 248, 223, 0.856);
+    background: radial-gradient(#3C6255,#61876E,#A6BB8D,#EAE7B1);
 }
 
 .banner{
     background-image: url(../assets/banner-main.jpg);
-    height: 400px;
+    height: 450px;
     margin: 5px;
-    h1{
-        padding-left: 80px;
-        padding-top: 73px;
+    h2{
+        padding-left: 150px;
+        padding-top: 34px;
         font-size: 50px;
-        font-family:cursive;
-        color: rgb(25, 25, 26);
-        font-style: oblique;
-        &:hover{
-            text-decoration: underline;
-            text-decoration-color: rgb(235, 229, 229);
-        }
+        font-family: 'Lobster Two';
+        font-weight: bolder;
+        color: $background-principal;
+        background-image: linear-gradient(80deg,#3C6255,#A6BB8D,#EAE7B1,#3C6255);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     }
     p{
         width: 50%;
-        padding-top: 50px;
-        padding-left: 50px;
-        font-family: cursive;
-        color: rgb(243, 243, 243);
-        background-color: rgba(0, 0, 0, 0.336);
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+        color:#61876E;
+        background-color: #eae7b1cb;
+        box-shadow: 10px 0px 10px 10px #eae7b1cb;
     }
 }
 
@@ -32,30 +33,27 @@ main{
     display: flex;
     justify-content: center;
     height: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    margin-top: 100px;
+    background-color: #A6BB8D;
+    h2{
+        @include flex (center, center, none)
         font-size: 40px;
-        font-family: monospace;
-        color: rgba(7, 7, 65, 0.575);
-        transition: 0.5s;
-        &:hover{
-            box-shadow: 0px 0px 30px 20px rgba(241, 139, 139, 0.726);
-            font-size: 50px;
-        }
+        font-family: 'Indie Flower';
+        color:#EAE7B1;
+        font-weight: bold;
+        
+        
     }
 }
 
 .main-secundario{
-    background-color: rgb(48, 69, 88);
+    background-color: #61876E;
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 400px;
+    height: 500px;
     gap: 20px;
+    border-radius: 10px;
 }
 
 .planes{
@@ -65,15 +63,15 @@ main{
     margin: 10px;
     border-radius: 5%;
     &:hover{
-        transform: scale(1.1);
+        transform: scale(1.01);
         box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
     }
-    h1{
+    h2{
         display: flex;
         justify-content: center;
         padding-top: 40px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(255, 255, 255);
+        color: #eae7b1dc;
     }
     p{
         display: flex;
@@ -81,10 +79,7 @@ main{
         font-family: cursive;
         color: rgb(14, 13, 13);
         padding: 50px;
-        &:hover{
-            background-color: rgba(240, 255, 255, 0.247);
-        
-        }
+        background-color: rgba(240, 255, 255, 0.247);
     }
 }
 
@@ -95,15 +90,15 @@ main{
     margin: 10px;
     border-radius: 5%;
     &:hover{
-        transform: scale(1.1);
+        transform: scale(1.01);
         box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
     }
-    h1{
+    h2{
         display: flex;
         justify-content: center;
-        padding-top: 40px;
+        padding-top: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgba(44, 6, 42, 0.719);
+        color: rgba(14, 13, 14, 0.719);
     }
     p{
         display: flex;
@@ -111,9 +106,7 @@ main{
         font-family: cursive;
         color: rgb(14, 13, 13);
         padding: 50px;
-        &:hover{
-            background-color: rgba(240, 255, 255, 0.247);
-        }
+        background-color: rgba(240, 255, 255, 0.247);
     }
 }
 
@@ -124,15 +117,15 @@ main{
     margin: 10px;
     border-radius: 5%;
     &:hover{
-        transform: scale(1.1);
+        transform: scale(1.01);
         box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.726);
     }
-    h1{
+    h2{
         display: flex;
         justify-content: center;
         padding: 40px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(255, 255, 255);
+        color:#eae7b1dc;
     }
     p{
         display: flex;
@@ -140,15 +133,12 @@ main{
         font-family: cursive;
         color: rgb(14, 13, 13);
         padding: 20px;
-        &:hover{
-            background-color: rgba(240, 255, 255, 0.247);
-        
-        }
+        background-color: rgba(240, 255, 255, 0.247);
     }
 }
 
 .main-tercero{
-    background-color: rgba(233, 247, 247, 0.808);
+    background-color: #a6bb8db6;
     display: flex;
     padding: 25px;
     margin-top: 70px;
@@ -156,19 +146,20 @@ main{
 
 .habitos{
     width: 30%;
-    h1{
+    h2{
         font-size: 35px;
         font-style: oblique;
-        color: darkolivegreen;
+        color: #3C6255;
     }
     p{
         font-family: cursive;
         font-size: 15px;
         padding: 20px;
-        background-color: rgba(240, 248, 255, 0.274);
+        background-color: #eae7b163;
+        border-bottom-right-radius: 20%;
     }
     h3{
-        color: darkolivegreen; 
+        color: $background-principal;
         font-size: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding-left: 50px;
@@ -177,33 +168,28 @@ main{
 
 .imagen-habitos{
     margin-left: 80px;
-    padding-top: 50px;
+    padding-top: 80px;
     img{
         width: 600px;
         height: 400px;
         border-radius: 5%;
         border: 5px solid rgba(0, 0, 0, 0.212);
         border-style: double;
-        transition: 0.5s;
-        &:hover{
-            transform: scale(1.2);
-            border-style: double;
-            border-color: black;
-        }
     }
 }
 
 .banner-main{
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: darkgoldenrod;
+    background-color: rgba(184, 135, 11, 0.493);
     height: 150px;
-    &:hover{
-        box-shadow: 0px 0px 10px 20px darkgoldenrod;
-    }
+    box-shadow: 0px 0px 10px 20px rgba(184, 135, 11, 0.493);
+    
 }
 
 .probando img:hover{
@@ -221,23 +207,29 @@ main{
 }
 
 .biografia{
-    background-color: cornflowerblue;
-    margin: 70px;
+    background: radial-gradient(#3C6255,#61876E,#A6BB8D,#EAE7B1);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
     display: flex;
-    border: 5px solid rgba(34, 37, 13, 0.76);
     text-align: center;
+    border-radius: 5%;
     div h2{
-        color: aliceblue;
+        color:  #EAE7B1;
         text-align: center;
         padding-top: 70px;
         font-size: 40px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     div p{
-        color: aliceblue;
+        color: #EAE7B1;
         text-align: center;
-        padding: 80px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 150px;
+        padding-left: 150px;
         font-family: cursive;
+        font-size: 22px;
     
     }
     div img{

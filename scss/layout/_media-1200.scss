@@ -1,0 +1,49 @@
+@media (max-width:1200px){
+
+    .contenedor-plan-celiacos{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .foto-celiacos{
+        grid-column: 3/6;
+        grid-row: 1/4;
+        padding-left: 50px;
+        padding-top: 200px;
+        img{
+            height: 1000px;
+            width: 500px; 
+        }
+    }
+
+    .contenedor-boton{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: space-around;
+        margin: 100px;
+        h3{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-right: 20px;
+        }
+        h5{
+            padding-left: 40px;
+            padding-top: 30px; 
+            font-size: 26px;
+            padding-right: 20px;
+        }
+        h6{
+            padding-left: 40px;
+            padding-top: 30px; 
+            font-size: 20px;
+            padding-right: 20px;
+        }
+    }
+
+}

@@ -1,7 +1,7 @@
 .recetas-barra{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(156, 223, 228, 0.692);
+    background-color: #A6BB8D;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     margin-right: 0px;
@@ -23,14 +23,14 @@
 }
 
 .carousel-item{
-    background-image: url(../assets/banner-recetas.jpg);
+    background-image: url(../assets/carrusell-back.jpg);
 }
 
 .recetas-titulo{
     display: flex;
     width: 25%;
     h3{
-        padding-left: 300px;
+        padding-left: 250px;
         padding-top: 20px;
         padding-bottom: 20px;
         color: rgba(10, 10, 10, 0.651);
@@ -38,6 +38,19 @@
         font-size: 40px;
     }
 }  
+
+.container-fluid {
+    form{
+    background-color: #61876E
+    }
+    button{
+        background-color: #EAE7B1;
+        &:hover{
+            background-color: #A6BB8D;
+        }
+    }
+}
+
 
 .busqueda{
     display: flex;
@@ -49,7 +62,7 @@
 }
 
 .d-flex{
-    width: 300px;
+    width: 400px;
 }
 
 .carrusel-receta{
@@ -82,7 +95,7 @@ form{
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#e6898963;
+	background-color:#61876eb9;
     label{
         width:72px;
         font-weight:bold;
@@ -104,11 +117,11 @@ form input[type="submit"]{
 	width:100%;
 	padding:8px 16px;
 	margin-top:32px;
-	border:1px solid #000;
+	border:1px solid #61876E;
 	border-radius:5px;
 	display:block;
-	color:#fff;
-	background-color:#000;
+	color: $background-principal;
+	background-color:#A6BB8D;
 } 
 
 form input[type="submit"]:hover{
@@ -130,12 +143,12 @@ textarea{
     display: flex;
     justify-content: space-around;
     margin: 100px;
-    border: 2px solid black;
-    border-style:double;
+    border: 10px solid #eae7b1be;
+    border-style:groove;
     h3{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 35px;
-        color: rgba(55, 77, 119, 0.788);
+        color: #000000a2;
         padding-left: 90px;
         padding-top: 80px;
     }

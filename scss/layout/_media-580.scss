@@ -1,5 +1,50 @@
 @media (max-width:580px){
 
+/*header*/
+
+    header div{
+        display:contents;
+        width: 100%;
+        padding: unset;
+    }
+
+    .titulo{
+        margin-bottom: unset;
+        padding-bottom: unset;
+    }
+    
+    .subtitulo{
+        color: #eae7b1b2;
+        font-size: 30px;
+        margin-left: 10px;
+        padding-top: 10px;
+        text-decoration: unset;
+    }
+
+    .navbar ul{
+        gap: 30px;
+        li a{
+            font-size: 18px;
+        }
+    }
+
+    .redes{
+        gap: 40px;
+        width: 100%;
+        li a img{
+            height: 30px;
+            width: 30px;
+            padding-top: 5px;
+            margin-right: 10px;
+        }
+    }
+
+    /*INDEX*/
+
+    .banner{
+        height: 500px;
+    }
+
     .politica{
         display: block;
         margin: 10px;

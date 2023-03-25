@@ -1,3 +1,5 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./base/reset";
 @import "./layout/body";
 
@@ -15,10 +17,12 @@
 @import "./layout/main-celiacos";
 
 /* MEDIAQUERYS */
+@import "./layout/media-1440";
+@import "./layout/media-1200";
+@import "./layout/media-1100";
 @import "./layout/media-1024";
 @import "./layout/media-900";
 @import "./layout/media-768";
-@import "./layout/media-700";
 @import "./layout/media-660";
 @import "./layout/media-600";
 @import "./layout/media-580";

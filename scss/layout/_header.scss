@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(213, 241, 232);
+    background: linear-gradient(#EAE7B1,#A6BB8D, #3C6255,);
     div{
         display: flex;
         width: 100%;
@@ -15,16 +15,16 @@ header{
 .logo{
     display: flex;
     width: 15%;
-    padding: 20px;
+    padding: 10px;
         &:hover{
-            transform: scale(1.5)
+            transform: scale(1.1)
     }
     
 }
 
 .navbar ul{
     display: flex;
-    background-color: rgba(157, 201, 221, 0.548);
+    background-color: $background-principal;
     gap: 70px;
     justify-content: center;
     padding: 25px;
@@ -36,40 +36,44 @@ header{
         text-decoration: none;
         font-size: 22px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgb(70, 72, 75);
+        color: #EAE7B1;
         justify-content: center;
         &:hover{
-            text-decoration: underline;
-            text-decoration-color: cadetblue;
-            background-color: rgba(194, 245, 112, 0.61);
-            border-radius: 25%;
+            background-color: #a6bb8d8c;
+            border-radius: 10%;
         }
     }
 }
 
 .titulo{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    color: rgba(39, 78, 122, 0.548);
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    color: $background-principal;
     display: flex;
     align-items: center;
     transition: 0.5s;
+    background-image: linear-gradient(0deg,#3C6255,#EAE7B1,#3C6255,#A6BB8D,#EAE7B1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
     &:hover{
-        background-color: rgb(116, 212, 241);
-        box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(116, 212, 241), 0 0 80px rgb(116, 212, 241);;
         font-size: 60px;
     }
 }
 
 .subtitulo{
-    font-family: cursive;
+    font-family: 'Cinzel', serif;
     font-size: 40px;
-    color: rgb(109, 106, 102);
+    color: #3C6255;
     margin-left: 50px;
     padding-top: 10px;
-    font-style: oblique;
     display: flex;
+    text-decoration: underline;
     align-items: center;
+    background-image: linear-gradient(100deg,#3C6255,#61876E);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .redes{
@@ -77,6 +81,7 @@ header{
     list-style: none;
     gap: 40px;
     justify-content: end;
+    width: 50%;
     li a img{
         height: 30px;
         width: 30px;
